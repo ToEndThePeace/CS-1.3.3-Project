@@ -31,11 +31,11 @@ Each directory contains a separate problem that you must solve. Inside each dire
 
 There isn't an official prescribed order for tackling the problems, though a subjective ranking of the given problems from easiest to hardest might go something like this:
 
- 1. `single_number`
- 2. `moving_zeroes`
- 3. `product_of_all_other_numbers`
- 4. `sliding_window_max`
- 5. `eating_cookies`
+1. `single_number`
+2. `moving_zeroes`
+3. `product_of_all_other_numbers`
+4. `sliding_window_max`
+5. `eating_cookies`
 For each problem, `cd` into the directory, read the instructions for the challenge, implement your solution in the skeleton file, then test it using the provided test file.
 
 The later problems get progressively more difficult, especially when it comes to deriving a more performant solution. Don't feel bad if you aren't able to figure them out within the project's timeframe. Again, always remember that so long as you put in an earnest effort into attempting to solve these problems, you're learning and getting better. Getting the 'right answer' is just the proverbial cherry on top of the sundae.
