@@ -4,13 +4,23 @@ Returns: an integer
 '''
 
 
+# def single_number(arr):
+#     # Your code here
+#     single = None
+#     arr.sort() # O(n)
+#     for i in range(0, len(arr), 2): # O(n)
+#         if i == len(arr) - 1 or arr[i] != arr[i + 1]:
+#             return arr[i]
+
+
 def single_number(arr):
-    # Your code here
-    single = None
-    arr.sort()
-    for i in range(0, len(arr), 2):
-        if i == len(arr) - 1 or arr[i] != arr[i + 1]:
-            return arr[i]
+    set_arr = set()  # initialize empty set O(1)
+    for i in arr:  # iterate over array O(n)
+        if i in set_arr:
+            set_arr.remove(i)  # O(1)
+        else:
+            set_arr.add(i)  # O(1)
+    return list(set_arr)[0]  # O(1)
 
 
 """
@@ -25,6 +35,8 @@ first-pass thoughts:
             PROS:
                 cuts off early if found, doesn't need to ALWAYS hit every element
                 simple, terse
+DICTIONARIES are good at checking for dupes
+also SETS
 """
 
 if __name__ == '__main__':
