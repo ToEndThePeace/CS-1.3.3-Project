@@ -24,18 +24,18 @@ This module project requires you to practice each of the learning objectives by 
 These types of algorithmic challenges simulate many of the problems that you might receive during a job interview. They require you to practice using all of your data structures knowledge, problem-solving capabilities, and algorithmic practice that you've done thus far. The more practice you get at applying these skills, the more likely you are to do well under pressure in a job interview setting. Additionally, this practice deepens your understanding through application.
 
 ## Instructions and/or Completion Requirements
+
 ### A First-Pass Solution
 
 Each directory contains a separate problem that you must solve. Inside each directory, you'll find instructions for that problem, a test file, and an empty skeleton file.
 
 There isn't an official prescribed order for tackling the problems, though a subjective ranking of the given problems from easiest to hardest might go something like this:
 
- 1. `single_number`
- 2. `moving_zeroes`
- 3. `product_of_all_other_numbers`
- 4. `sliding_window_max`
- 5. `eating_cookies`
-
+1. `single_number`
+2. `moving_zeroes`
+3. `product_of_all_other_numbers`
+4. `sliding_window_max`
+5. `eating_cookies`
 For each problem, `cd` into the directory, read the instructions for the challenge, implement your solution in the skeleton file, then test it using the provided test file.
 
 The later problems get progressively more difficult, especially when it comes to deriving a more performant solution. Don't feel bad if you aren't able to figure them out within the project's timeframe. Again, always remember that so long as you put in an earnest effort into attempting to solve these problems, you're learning and getting better. Getting the 'right answer' is just the proverbial cherry on top of the sundae.
